@@ -41,18 +41,6 @@ public class Main {
                 System.out.printf(l3.toString());
             } else System.out.println("Таких ноутбуков нет!");
 
-            //System.out.printf("Введите значение ОЗУ: ");
-           // Integer ram = sc.nextInt();
-           // if(ram >=32){
-           //     System.out.printf(l1.toString() + "\n" + l2.toString() + "\n" + l4.toString() + "\n" + l3.toString() + "\n");
-           // }else if(ram < 32){
-           //     System.out.printf(l1.toString() + "\n" + l2.toString() + "\n" + l4.toString());
-           // }else if(ram < 16){
-          //      System.out.printf(l1.toString() + "\n" + l2.toString());
-           // }else if(ram <= 4){
-            //    System.out.printf(l1.toString());
-           // }else System.out.println("Таких ноутбуков нет!");
-
         }else if(choice == 2){
 
             System.out.println("Введите название SSD");
@@ -65,18 +53,6 @@ public class Main {
             } else if (ssd.equals("512")) {
                 System.out.printf(l3.toString());
             } else System.out.println("Таких ноутбуков нет!");
-
-           // System.out.printf("Введите значение SSD: ");
-           // Integer ssd = sc.nextInt();
-          //  if(ssd >=512){
-          //      System.out.printf(l1.toString() + "\n" + l2.toString() + "\n" + l4.toString() + "\n" + l3.toString() + "\n");
-          //  }else if(ssd < 512){
-          //      System.out.printf(l1.toString() + "\n" + l2.toString() + "\n" + l4.toString());
-          //  }else if(ssd < 256){
-          //      System.out.printf(l1.toString() + "\n" + l2.toString());
-         //   }else if(ssd < 128){
-         //       System.out.printf(l1.toString());
-         //   }else System.out.println("Таких ноутбуков нет!");
 
         }else if(choice == 3) {
 
@@ -92,7 +68,6 @@ public class Main {
             } else if (os.equals("Linux")) {
                 System.out.printf(l4.toString());
             } else System.out.println("Таких ноутбуков нет!");
-
 
         }else if(choice == 4){
 
